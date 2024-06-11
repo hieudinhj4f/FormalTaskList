@@ -1,0 +1,44 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.task-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+.priority {
+  font-weight: bold;
+}
+
+.priority.text-high {
+  color: red;
+}
+
+.priority.text-medium {
+  color: orange;
+}
+
+.priority.text-low {
+  color: green;
+}
+
+.status {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.actions .edit:hover,
+.actions .delete:hover {
+  color: #007bff;
+}
+
+.actions .delete:hover {
+  color: red;
+}
